@@ -29,7 +29,7 @@ body {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: calc(24 / 16);
+    line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
@@ -48,7 +48,7 @@ body {
     line-height: 1.17;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-    color: var(--color_primary_brand);
+    color: var(--color-primary-brand);
 }
 
 .logo-firstword {
@@ -58,9 +58,9 @@ body {
 .navigation-items>.link {
     font-weight: 500;
     font-size: 16px;
-    line-height: calc(24 / 16);
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: inherit;
+    color: var(--background-color-text);
 }
 
 .contact {
@@ -93,7 +93,8 @@ body {
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
-    text-align: center letter-spacing: 0.02em;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: var(--color-hover-heading);
 }
 
@@ -107,13 +108,14 @@ body {
 .item-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: calc(24 / 20);
+    line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--background-color-text);
 }
 
 .item-text {
     font-size: 16px;
-    line-height: calc(24 / 16);
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-body-text);
 }
@@ -126,6 +128,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--background-color-text);
 }
 
 /*?------------------------------------team--------------------------------------- */
@@ -140,22 +143,24 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--background-color-text);
 }
 
 .team-list {
-    background: var(--color-hover-heading);
+    background-color: var(--color-hover-heading);
 }
 
 .team-name {
     font-weight: 500;
     font-size: 20px;
-    line-height: calc(24 / 20);
+    line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--background-color-text);
 }
 
 .team-role {
     font-size: 16px;
-    line-height: calc(24 / 16);
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-body-text);
 }
@@ -177,6 +182,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--background-color-text);
 }
 
 .exampleworks-item .item-text {
@@ -196,4 +202,8 @@ body {
     line-height: 1.17;
     letter-spacing: 0.02em;
     color: var(--color-accent-text);
+}
+
+.logo-footerword {
+    color: var(--background-alerts);
 }
